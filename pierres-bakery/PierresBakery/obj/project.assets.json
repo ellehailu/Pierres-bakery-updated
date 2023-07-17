@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/PierresBakery/pierresBakery.csproj",
-      "projectName": "pierresBakery",
-      "projectPath": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/PierresBakery/pierresBakery.csproj",
+      "projectUniqueName": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery/PierresBakery.csproj",
+      "projectName": "PierresBakery",
+      "projectPath": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery/PierresBakery.csproj",
       "packagesPath": "/Users/elshadaihailu/.nuget/packages/",
-      "outputPath": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/PierresBakery/obj/",
+      "outputPath": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/elshadaihailu/.nuget/NuGet/NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
       }
     }
   }
