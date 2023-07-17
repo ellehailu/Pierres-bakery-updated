@@ -28,7 +28,7 @@ Pierre offers the following deal for Pastry: Buy 3, get 1 free.
 
 - _Clone this repository to your desktop_
 - _Open your terminal and navigate to the top level of the directory_
-- _In your terminal run ['dotnet run']_
+- _In your terminal run 'dotnet run'_
 
 ## Known Bugs
 
