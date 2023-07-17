@@ -1,6 +1,8 @@
+###### _Pierre's Bakery_
+
 #### By _**Elle Hailu**_
 
-#### _An application that offers the user currency conversion_
+#### _A console app for a bakery to process orders_
 
 ## Technologies Used
 
@@ -9,16 +11,24 @@
 
 ## Description
 
-- A user can enter an amount in in U.S. dollars, then specify another currency from the listed 5 options and submit the form.
-- Once the form is submitted, the user will see the total amount they entered in converted currency.
+- a C# console application for a bakery that includes the following functionality:
+
+There should be two classes: one for Bread and one for Pastry.
+
+When the user runs the application, they should receive a prompt with a welcome message along with the cost for both Bread and Pastry.
+
+A user should be able to specify how many loaves of Bread and how many Pastrys they'd like.
+
+The application will return the total cost of the order.
+
+Pierre offers the following deal for Bread: Buy 2, get 1 free. 
+Pierre offers the following deal for Pastry: Buy 3, get 1 free. 
 
 ## Setup/Installation Requirements
 
 - _Clone this repository to your desktop_
-- _Navigate to the top level of the directory_
-- _Open the files in your prefered source code editor_
-- _Create a .env file in your root directory and add it to your .gitignore file. Make sure to commit your .gitignore at this point, before moving on._
-- 
+- _Open your terminal and navigate to the top level of the directory_
+- _In your terminal run ['dotnet run']_
 
 ## Known Bugs
 
