@@ -25,5 +25,14 @@ namespace PierresBakery.Tests
             int expectedAmount = newPastries.PastriesAmount;
             Assert.AreEqual(pastriesAmount, expectedAmount);
         }
+
+        [TestMethod]
+        public void SetPastries_SetAmountOfPastries_Void(){
+            int pastriesAmount = 3;
+            Pastries newPastries = new Pastries(pastriesAmount);
+            int updatedAmount = 7;
+            newPastries.PastriesAmount = updatedAmount;
+            Assert.AreEqual(updatedAmount, newPastries.PastriesAmount);
+        }
     }
     }
