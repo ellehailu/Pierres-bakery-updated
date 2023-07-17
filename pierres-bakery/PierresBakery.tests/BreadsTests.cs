@@ -33,6 +33,15 @@ namespace PierresBakery.Tests
             newBread.BreadAmount = updatedAmount;
             Assert.AreEqual(updatedAmount, newBread.BreadAmount);
         }
+
+        [TestMethod]
+        public void CalculatePrice_CalculatePriceOfBread_Int()
+        {
+            int breadAmount = 3;
+            Bread newBread = new Bread(breadAmount);
+            int price = newBread.CalculatePrice();
+            Assert.AreEqual(9, price);
+        }
     }
 }
 
