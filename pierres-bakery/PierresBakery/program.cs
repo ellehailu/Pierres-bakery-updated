@@ -19,6 +19,24 @@ namespace PierresBakery
             Console.WriteLine("How many pastries would you like to buy?");
             string pastriesInput = Console.ReadLine();
         }
+
+        static void ConfirmOrder(Bread breadAmount, Pastries pastriesAmount){
+            Console.WriteLine($"Please confirm your order: you would like to purchase {breadAmount.BreadAmount} loaves of bread and {pastriesAmount.PastriesAmount} pastry/pastries?");
+            Console.WriteLine("Is this order correct? please type in 'yes' to continue or 'no' to re-enter the correct amounts");
+            string orderConfirmation = Console.ReadLine();
+            if (orderConfirmation == "yes" || orderConfirmation == "YES" || orderConfirmation == "Yes"){
+                Console.WriteLine("Thank you for confirming your order!");
+                // CalculateTotalPrice(breadAmount, pastriesAmount);
+            }
+            else if(orderConfirmation == "no" || orderConfirmation == "NO" || orderConfirmation == "No"){
+                UpdateOrder(breadAmount, pastriesAmount);
+            }
+            else{
+                Console.WriteLine("please enter a valid response");
+                ConfirmOrder(breadAmount, pastriesAmount);
+            }
+        }
+
         
     }
 }
