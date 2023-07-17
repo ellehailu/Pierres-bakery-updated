@@ -17,6 +17,13 @@ namespace PierresBakery.Tests
             Pastries newPastries = new Pastries(PastriesAmount);
             Assert.AreEqual(typeof(Pastries), newPastries.GetType());
         }
-    
+
+        [TestMethod]
+        public void GetPastries_ReturnPastriesAmount_Int(){
+            int pastriesAmount = 3;
+            Pastries newPastries = new Pastries(pastriesAmount);
+            int expectedAmount = newPastries.PastriesAmount;
+            Assert.AreEqual(pastriesAmount, expectedAmount);
+        }
     }
     }
