@@ -36,7 +36,11 @@ namespace PierresBakery
                 ConfirmOrder(breadAmount, pastriesAmount);
             }
         }
-
+        static void CalculateTotalPrice(Bread breadAmount, Pastries pastriesAmount){
+            int totalPrice = breadAmount.CalculateBreadPrice() + pastriesAmount.CalculatePastryPrice();
+            Console.WriteLine($"The total cost for your order is ${totalPrice}");
+            Console.WriteLine("Thanks for visiting Pierre's Bakery!");
+        }
         
     }
 }
