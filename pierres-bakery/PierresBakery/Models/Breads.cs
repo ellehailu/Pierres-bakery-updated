@@ -1,5 +1,9 @@
+using System.Collections.Generic;
+using System;
+
 namespace PierresBakery.Models
 {
+
     public class Bread
     {
         // two loaves costs $10
@@ -8,5 +12,10 @@ namespace PierresBakery.Models
         // five loaves cost $20
         // six loaves costs $20
         // seven loaves cost $25
+        public int BreadAmount { get; set; }
+        public Bread(int breadAmount)
+        {
+            BreadAmount = breadAmount;
+        }
     }
 }
