@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery/PierresBakery.csproj": {}
+    "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery/pierresBakery.csproj": {}
   },
   "projects": {
-    "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery/PierresBakery.csproj": {
+    "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery/pierresBakery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery/PierresBakery.csproj",
-        "projectName": "PierresBakery",
-        "projectPath": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery/PierresBakery.csproj",
+        "projectUniqueName": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery/pierresBakery.csproj",
+        "projectName": "pierresBakery",
+        "projectPath": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery/pierresBakery.csproj",
         "packagesPath": "/Users/elshadaihailu/.nuget/packages/",
         "outputPath": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery/obj/",
         "projectStyle": "PackageReference",

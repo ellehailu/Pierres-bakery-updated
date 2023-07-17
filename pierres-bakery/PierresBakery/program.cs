@@ -12,12 +12,19 @@ namespace PierresBakery
             Console.WriteLine("Our prices are listed below: ");
             Console.WriteLine("Bread: $5/Loaf --Buy two and get your third one free \n every third loaf of bread is free!");
             Console.WriteLine("Pastries: $2/Pastry --Buy three and get your fourth one free \n every fourth pastry is free!");
+            UpdateOrder();
         }
-        static void UpdateOrder(Bread breadAmount, Pastries pastriesAmount){
+        static void UpdateOrder(){
             Console.WriteLine("How many loaves of bread would you like to buy?");
-            string breadInput = Console.ReadLine();
+            int breadInput = int.Parse(Console.ReadLine());
             Console.WriteLine("How many pastries would you like to buy?");
-            string pastriesInput = Console.ReadLine();
+            int pastriesInput = int.Parse(Console.ReadLine());
+
+            Pastries pastriesOrder = new Pastries(pastriesInput);
+            Bread breadOrder = new Bread(breadInput);
+            ConfirmOrder(breadOrder, pastriesOrder);
+
+            //maybe add try/catch to filter user input that is not integers
         }
 
         static void ConfirmOrder(Bread breadAmount, Pastries pastriesAmount){
@@ -29,7 +36,7 @@ namespace PierresBakery
                 CalculateTotalPrice(breadAmount, pastriesAmount);
             }
             else if(orderConfirmation == "no" || orderConfirmation == "NO" || orderConfirmation == "No"){
-                UpdateOrder(breadAmount, pastriesAmount);
+                UpdateOrder();
             }
             else{
                 Console.WriteLine("please enter a valid response");
