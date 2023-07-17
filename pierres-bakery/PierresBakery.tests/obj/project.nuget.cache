@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hN+pYwOYDrvtj27LSd3tJKpJHkhrbDMoJDMb5wi4+kQREIHx6IU5IPlERHqJikrJoQJ7pl0r8xZjgZMR4P3BSQ==",
+  "dgSpecHash": "n97d4x4v/1MUkygwtpvYb0vUhThhJiGLrsGav1zo6TttFvLePpyitiNJzHjpW/xkzVSNwRdGCYqX+B6gZKuWhA==",
   "success": true,
-  "projectFilePath": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/PierresBakery.Tests/PierresBakeryTests.csproj",
+  "projectFilePath": "/Users/elshadaihailu/Documents/Epicodus/pierres-bakery/pierres-bakery/PierresBakery.tests/PierresBakeryTests.csproj",
   "expectedPackageFiles": [
     "/Users/elshadaihailu/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",
     "/Users/elshadaihailu/.nuget/packages/microsoft.csharp/4.3.0/microsoft.csharp.4.3.0.nupkg.sha512",
