@@ -26,7 +26,7 @@
 //         }
 
 //         [TestMethod]
-//         public void SetBreadAmount_SetValueOfBread_Void(){
+//         public void SetBreadAmount_SetAmountOfBread_Void(){
 //             int breadAmount = 3;
 //             Bread newBread = new Bread(breadAmount);
 //             int updatedAmount = 7;
@@ -35,7 +35,7 @@
 //         }
 
 //         [TestMethod]
-//         public void CalculatePrice_CalculatePriceOfBread_Int()
+//         public void CalculateBreadPrice_CalculatePriceOfBread_Int()
 //         {
 //             int breadAmount = 3;
 //             Bread newBread = new Bread(breadAmount);

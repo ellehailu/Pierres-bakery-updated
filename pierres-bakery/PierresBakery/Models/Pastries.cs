@@ -15,5 +15,10 @@ namespace PierresBakery.Models
     public Pastries(int pastriesAmount) {
         PastriesAmount = pastriesAmount;
     }
+
+    public int CalculatePastryPrice(){
+        int pastryPrice = PastriesAmount * 5;
+        return pastryPrice;
     }
+}
 }

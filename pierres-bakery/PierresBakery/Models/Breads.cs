@@ -18,7 +18,7 @@
 //             BreadAmount = breadAmount;
 //         }
 
-//         public int CalculatePrice()
+//         public int CalculateBreadPrice()
 //         {
 //             int price = BreadAmount * 3;
 //             return price;
