@@ -26,7 +26,7 @@ namespace PierresBakery
             string orderConfirmation = Console.ReadLine();
             if (orderConfirmation == "yes" || orderConfirmation == "YES" || orderConfirmation == "Yes"){
                 Console.WriteLine("Thank you for confirming your order!");
-                // CalculateTotalPrice(breadAmount, pastriesAmount);
+                CalculateTotalPrice(breadAmount, pastriesAmount);
             }
             else if(orderConfirmation == "no" || orderConfirmation == "NO" || orderConfirmation == "No"){
                 UpdateOrder(breadAmount, pastriesAmount);

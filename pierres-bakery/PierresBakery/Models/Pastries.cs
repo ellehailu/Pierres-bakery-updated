@@ -17,8 +17,9 @@ namespace PierresBakery.Models
     }
 
     public int CalculatePastryPrice(){
-        int pastryPrice = PastriesAmount * 5;
-        return pastryPrice;
+        int amountPaidFor = PastriesAmount - (PastriesAmount / 4);
+        int totalPastriesPrice = amountPaidFor * 2;
+        return totalPastriesPrice;
     }
 }
 }
