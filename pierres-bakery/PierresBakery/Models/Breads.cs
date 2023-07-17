@@ -17,5 +17,11 @@ namespace PierresBakery.Models
         {
             BreadAmount = breadAmount;
         }
+
+        public int CalculatePrice()
+        {
+            int price = BreadAmount * 3;
+            return price;
+        }
     }
 }

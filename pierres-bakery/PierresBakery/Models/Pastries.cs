@@ -10,5 +10,10 @@ namespace PierresBakery.Models
         // seven pastries costs $12
         // eight pastries costs $12
         // Can you see a pattern? Every 4th pastry is free.
+    
+    public int PastriesAmount;
+    public Pastries(int pastriesAmount) {
+        PastriesAmount = pastriesAmount;
+    }
     }
 }
