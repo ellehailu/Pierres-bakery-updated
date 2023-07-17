@@ -12,7 +12,7 @@ namespace PierresBakery.Models
         // five loaves cost $20
         // six loaves costs $20
         // seven loaves cost $25
-        public int BreadAmount { get; }
+        public int BreadAmount { get; set; }
         public Bread(int breadAmount)
         {
             BreadAmount = breadAmount;

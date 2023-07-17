@@ -24,6 +24,15 @@ namespace PierresBakery.Tests
             int expectedAmount = newBread.BreadAmount;
             Assert.AreEqual(breadAmount, expectedAmount);
         }
+
+        [TestMethod]
+        public void SetBreadAmount_SetValueOfBread_Void(){
+            int breadAmount = 3;
+            Bread newBread = new Bread(breadAmount);
+            int updatedAmount = 7;
+            newBread.BreadAmount = updatedAmount;
+            Assert.AreEqual(updatedAmount, newBread.BreadAmount);
+        }
     }
 }
 
