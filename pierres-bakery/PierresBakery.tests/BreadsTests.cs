@@ -18,7 +18,8 @@ namespace PierresBakery.Tests
         }
 
         [TestMethod]
-        public void GetBreadAmount_ReturnBreadAmount_Int(){
+        public void GetBreadAmount_ReturnBreadAmount_Int()
+        {
             int breadAmount = 3;
             Bread newBread = new Bread(breadAmount);
             int expectedAmount = newBread.BreadAmount;
@@ -26,7 +27,8 @@ namespace PierresBakery.Tests
         }
 
         [TestMethod]
-        public void SetBreadAmount_SetAmountOfBread_Void(){
+        public void SetBreadAmount_SetAmountOfBread_Void()
+        {
             int breadAmount = 3;
             Bread newBread = new Bread(breadAmount);
             int updatedAmount = 7;
@@ -39,7 +41,7 @@ namespace PierresBakery.Tests
         {
             int breadAmount = 3;
             Bread newBread = new Bread(breadAmount);
-            int price = newBread.CalculatePrice();
+            int price = newBread.CalculateBreadPrice();
             Assert.AreEqual(9, price);
         }
     }
