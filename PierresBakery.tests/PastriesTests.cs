@@ -19,7 +19,8 @@ namespace PierresBakery.Tests
         }
 
         [TestMethod]
-        public void GetPastries_ReturnPastriesAmount_Int(){
+        public void GetPastries_ReturnPastriesAmount_Int()
+        {
             int pastriesAmount = 3;
             Pastries newPastries = new Pastries(pastriesAmount);
             int expectedAmount = newPastries.PastriesAmount;
@@ -27,7 +28,8 @@ namespace PierresBakery.Tests
         }
 
         [TestMethod]
-        public void SetPastries_SetAmountOfPastries_Void(){
+        public void SetPastries_SetAmountOfPastries_Void()
+        {
             int pastriesAmount = 3;
             Pastries newPastries = new Pastries(pastriesAmount);
             int updatedAmount = 7;
@@ -37,11 +39,12 @@ namespace PierresBakery.Tests
 
         [TestMethod]
 
-        public void CalculatePastryPrice_CalculatePriceOfPastry_Int(){
-            int pastriesAmount = 3;
+        public void CalculatePastryPrice_CalculatePriceOfPastry_Int()
+        {
+            int pastriesAmount = 11;
             Pastries newPastries = new Pastries(pastriesAmount);
             int price = newPastries.CalculatePastryPrice();
-            Assert.AreEqual(15, price);
+            Assert.AreEqual(18, price);
         }
     }
-    }
+}

@@ -39,10 +39,10 @@ namespace PierresBakery.Tests
         [TestMethod]
         public void CalculateBreadPrice_CalculatePriceOfBread_Int()
         {
-            int breadAmount = 3;
+            int breadAmount = 7;
             Bread newBread = new Bread(breadAmount);
             int price = newBread.CalculateBreadPrice();
-            Assert.AreEqual(9, price);
+            Assert.AreEqual(25, price);
         }
     }
 }
