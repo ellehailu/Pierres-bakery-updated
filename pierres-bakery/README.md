@@ -1,4 +1,4 @@
-###### _Pierre's Bakery_
+# _Pierre's Bakery_
 
 #### By _**Elle Hailu**_
 
@@ -11,18 +11,18 @@
 
 ## Description
 
-- a C# console application for a bakery that includes the following functionality:
+- A C# console application for a bakery that includes the following functionality:
 
-There should be two classes: one for Bread and one for Pastry.
+  - There should be two classes: one for Bread and one for Pastry.
 
-When the user runs the application, they should receive a prompt with a welcome message along with the cost for both Bread and Pastry.
+  - When the user runs the application, they should receive a prompt with a welcome message along with the cost for both Bread and Pastry.
 
-A user should be able to specify how many loaves of Bread and how many Pastrys they'd like.
+  - A user should be able to specify how many loaves of Bread and how many Pastrys they'd like.
 
-The application will return the total cost of the order.
+  - The application will return the total cost of the order.
 
-Pierre offers the following deal for Bread: Buy 2, get 1 free. 
-Pierre offers the following deal for Pastry: Buy 3, get 1 free. 
+  - Pierre offers the following deal for Bread: Buy 2, get 1 free.
+  - Pierre offers the following deal for Pastry: Buy 3, get 1 free.
 
 ## Setup/Installation Requirements
 
@@ -32,11 +32,12 @@ Pierre offers the following deal for Pastry: Buy 3, get 1 free.
 
 ## Known Bugs
 
-- _No known bugs in the current version._
+- _No known bugs in current version._
 
 ## License
 
-MIT
+MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Copyright (c) _2023_ _Elle Hailu_
 
 _Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
