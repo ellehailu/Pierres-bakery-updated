@@ -28,7 +28,9 @@
 
 - _Clone this repository to your desktop_
 - _Open your terminal and navigate to the top level of the directory_
-- _In your terminal run 'dotnet run'_
+- _While in your terminal, run 'dotnet build' to build your project._
+- _In your terminal, navigate to the PierresBakery directory and run 'dotnet run'_
+- _To run tests, navigate to the PierresBakery.tests directory through your terminal and run 'dotnet test'._
 
 ## Known Bugs
 
