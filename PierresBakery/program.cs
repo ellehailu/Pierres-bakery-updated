@@ -16,14 +16,15 @@ namespace PierresBakery
         }
         static void UpdateOrder()
         {
-
+            int breadInput = 0;
+            int pastriesInput = 0;
             try
             {
                 Console.WriteLine("How many loaves of bread would you like to buy?");
-                int breadInput = int.Parse(Console.ReadLine());
+                breadInput = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("How many pastries would you like to buy?");
-                int pastriesInput = int.Parse(Console.ReadLine());
+                pastriesInput = int.Parse(Console.ReadLine());
             }
             catch (Exception)
             {
