@@ -7,11 +7,13 @@ namespace PierresBakery
     {
         static void Main()
         {
-
-            Console.WriteLine("Welcome to Pierre's Bakery");
-            Console.WriteLine("Our prices are listed below: ");
-            Console.WriteLine("Bread: $5/Loaf --Buy two and get your third one free \n every third loaf of bread is free!");
-            Console.WriteLine("Pastries: $2/Pastry --Buy three and get your fourth one free \n every fourth pastry is free!");
+            Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+            Console.WriteLine("\nWelcome to Pierre's Bakery");
+            Console.WriteLine("\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+            Console.WriteLine("\nOur prices are listed below: ");
+            Console.WriteLine("\nBread: $5/Loaf --Buy two and get your third one free \n Every third loaf of bread is free!");
+            Console.WriteLine("\nPastries: $2/Pastry --Buy three and get your fourth one free \n Every fourth pastry is free!");
+            Console.WriteLine("\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
             UpdateOrder();
         }
         static void UpdateOrder()
@@ -20,15 +22,15 @@ namespace PierresBakery
             int pastriesInput = 0;
             try
             {
-                Console.WriteLine("How many loaves of bread would you like to buy?");
+                Console.WriteLine("\nHow many loaves of bread would you like to buy?");
                 breadInput = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("How many pastries would you like to buy?");
+                Console.WriteLine("\nHow many pastries would you like to buy?");
                 pastriesInput = int.Parse(Console.ReadLine());
             }
             catch (Exception)
             {
-                Console.WriteLine("please enter a valid input");
+                Console.WriteLine("\nplease enter a valid input");
                 UpdateOrder();
             }
             Pastries pastriesOrder = new Pastries(pastriesInput);
@@ -38,12 +40,11 @@ namespace PierresBakery
 
         static void ConfirmOrder(Bread breadAmount, Pastries pastriesAmount)
         {
-            Console.WriteLine($"Please confirm your order: you would like to purchase {breadAmount.BreadAmount} loaves of bread and {pastriesAmount.PastriesAmount} pastry/pastries?");
-            Console.WriteLine("Is this order correct? please type in 'yes' to continue or 'no' to re-enter the correct amounts");
+            Console.WriteLine($"\nPlease confirm your order: you would like to purchase {breadAmount.BreadAmount} loaves of bread and {pastriesAmount.PastriesAmount} pastry/pastries?");
+            Console.WriteLine("\nIs this order correct? please type in 'yes' to continue or 'no' to re-enter the correct amounts");
             string orderConfirmation = Console.ReadLine();
             if (orderConfirmation == "yes" || orderConfirmation == "YES" || orderConfirmation == "Yes")
             {
-                Console.WriteLine("Thank you for confirming your order!");
                 CalculateTotalPrice(breadAmount, pastriesAmount);
             }
             else if (orderConfirmation == "no" || orderConfirmation == "NO" || orderConfirmation == "No")
@@ -52,17 +53,17 @@ namespace PierresBakery
             }
             else
             {
-                Console.WriteLine("please enter a valid response");
+                Console.WriteLine("\nplease enter a valid response");
                 ConfirmOrder(breadAmount, pastriesAmount);
             }
         }
         static void CalculateTotalPrice(Bread breadAmount, Pastries pastriesAmount)
         {
             int totalPrice = breadAmount.CalculateBreadPrice() + pastriesAmount.CalculatePastryPrice();
-            Console.WriteLine($"The total cost for your order is ${totalPrice}");
-            Console.WriteLine("Thanks for visiting Pierre's Bakery!");
+            Console.WriteLine($"\nThe total cost for your order is ${totalPrice}");
+            Console.WriteLine("\nThanks for visiting Pierre's Bakery!");
+            Console.WriteLine("\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
         }
-
     }
 }
 
