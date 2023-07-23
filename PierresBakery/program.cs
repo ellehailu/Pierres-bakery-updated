@@ -28,14 +28,12 @@ namespace PierresBakery
             }
             catch (Exception)
             {
-                Console.WriteLine("please enter a valid input")
-                return;
+                Console.WriteLine("please enter a valid input");
+                UpdateOrder();
             }
             Pastries pastriesOrder = new Pastries(pastriesInput);
             Bread breadOrder = new Bread(breadInput);
             ConfirmOrder(breadOrder, pastriesOrder);
-
-            //maybe add try/catch to filter user input that is not integers
         }
 
         static void ConfirmOrder(Bread breadAmount, Pastries pastriesAmount)
